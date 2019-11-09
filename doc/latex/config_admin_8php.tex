@@ -1,0 +1,212 @@
+\hypertarget{config_admin_8php}{}\doxysection{config\+Admin.\+php File Reference}
+\label{config_admin_8php}\index{configAdmin.php@{configAdmin.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{config_admin_8php_a1b8f77322def45212300102b94adee25}{\$categoriac}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$catec=mysqli\+\_\+fetch\+\_\+array(\$categoriac)) \mbox{\hyperlink{config_admin_8php_ae9f47f85ab4e5168166f6d595c326f06}{\$proveedoresc}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$provc=mysqli\+\_\+fetch\+\_\+array(\$proveedoresc)) \mbox{\hyperlink{config_admin_8php_af1485d2bad7ba471db848e96faaf9304}{\$productoc}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$prodc=mysqli\+\_\+fetch\+\_\+array(\$productoc)) \mbox{\hyperlink{config_admin_8php_ad639f030598c2f39d2e3218e11204041}{\$productos}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})
+\item 
+\mbox{\hyperlink{config_admin_8php_a54f6087db0b070d5679122ae717a6c54}{\$upr}} =1
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$prod=mysqli\+\_\+fetch\+\_\+array(\$productos)) \mbox{\hyperlink{config_admin_8php_ad77453e4f8c3a3a95159f326f841456c}{\$prove\+N\+IT}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$PN=mysqli\+\_\+fetch\+\_\+array(\$prove\+N\+IT)) \mbox{\hyperlink{config_admin_8php_a28c5093838075308414b14b442b20879}{\$proveedores}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})
+\item 
+\mbox{\hyperlink{config_admin_8php_a6b5ad2ac55f9df46e8f34e78fbd6f176}{\$up}} =1
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$prov=mysqli\+\_\+fetch\+\_\+array(\$proveedores)) \mbox{\hyperlink{config_admin_8php_a68e6f4fa1d449340601ae63cee6b5f0e}{\$categoriav}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$categv=mysqli\+\_\+fetch\+\_\+array(\$categoriav)) \mbox{\hyperlink{config_admin_8php_a02ff1ff64e55fcf91b5722e24902ab87}{\$categorias}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})
+\item 
+\mbox{\hyperlink{config_admin_8php_a688bb9e9ce51fd0b16bd9ff1d2094dd3}{\$ui}} =1
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$cate=mysqli\+\_\+fetch\+\_\+array(\$categorias)) \mbox{\hyperlink{config_admin_8php_ab78c33692e5f5c3c07ada9a6d7fdf8fb}{\$admin\+Con}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from administrador\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$AdminD=mysqli\+\_\+fetch\+\_\+array(\$admin\+Con)) \mbox{\hyperlink{config_admin_8php_ab46fdeee3e73567978f3934c5039c89d}{\$clien\+Con}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from cliente\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$ClienD=mysqli\+\_\+fetch\+\_\+array(\$clien\+Con)) \mbox{\hyperlink{config_admin_8php_a82138fd06d120291dfe0713baf9ce972}{\$pedidoC}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from venta\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$pedidoD=mysqli\+\_\+fetch\+\_\+array(\$pedidoC)) \mbox{\hyperlink{config_admin_8php_ae5f3b315eef3bf568c012bd06bd896aa}{\$pedidoU}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from venta\char`\"{})
+\item 
+\mbox{\hyperlink{config_admin_8php_ada9681a426e94c45c94d575b7f35feb9}{\$upp}} =1
+\item 
+\mbox{\hyperlink{config_admin_8php_a90c79a5a5e0fbcc00e746ff28e058700}{while}} ( \$peU=mysqli\+\_\+fetch\+\_\+array( \$pedidoU))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{config_admin_8php_ab78c33692e5f5c3c07ada9a6d7fdf8fb}\label{config_admin_8php_ab78c33692e5f5c3c07ada9a6d7fdf8fb}} 
+\index{configAdmin.php@{configAdmin.php}!\$adminCon@{\$adminCon}}
+\index{\$adminCon@{\$adminCon}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$adminCon}{$adminCon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$cate=mysqli\+\_\+fetch\+\_\+array( \$categorias)) \$admin\+Con = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from administrador\char`\"{})}
+
+
+
+Definition at line 442 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a1b8f77322def45212300102b94adee25}\label{config_admin_8php_a1b8f77322def45212300102b94adee25}} 
+\index{configAdmin.php@{configAdmin.php}!\$categoriac@{\$categoriac}}
+\index{\$categoriac@{\$categoriac}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$categoriac}{$categoriac}}
+{\footnotesize\ttfamily \$categoriac = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})}
+
+
+
+Definition at line 50 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a02ff1ff64e55fcf91b5722e24902ab87}\label{config_admin_8php_a02ff1ff64e55fcf91b5722e24902ab87}} 
+\index{configAdmin.php@{configAdmin.php}!\$categorias@{\$categorias}}
+\index{\$categorias@{\$categorias}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$categorias}{$categorias}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$categv=mysqli\+\_\+fetch\+\_\+array( \$categoriav)) \$categorias = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})}
+
+
+
+Definition at line 380 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a68e6f4fa1d449340601ae63cee6b5f0e}\label{config_admin_8php_a68e6f4fa1d449340601ae63cee6b5f0e}} 
+\index{configAdmin.php@{configAdmin.php}!\$categoriav@{\$categoriav}}
+\index{\$categoriav@{\$categoriav}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$categoriav}{$categoriav}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$prov=mysqli\+\_\+fetch\+\_\+array( \$proveedores)) \$categoriav = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})}
+
+
+
+Definition at line 351 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ab46fdeee3e73567978f3934c5039c89d}\label{config_admin_8php_ab46fdeee3e73567978f3934c5039c89d}} 
+\index{configAdmin.php@{configAdmin.php}!\$clienCon@{\$clienCon}}
+\index{\$clienCon@{\$clienCon}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$clienCon}{$clienCon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$AdminD=mysqli\+\_\+fetch\+\_\+array( \$admin\+Con)) \$clien\+Con = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from cliente\char`\"{})}
+
+
+
+Definition at line 470 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a82138fd06d120291dfe0713baf9ce972}\label{config_admin_8php_a82138fd06d120291dfe0713baf9ce972}} 
+\index{configAdmin.php@{configAdmin.php}!\$pedidoC@{\$pedidoC}}
+\index{\$pedidoC@{\$pedidoC}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$pedidoC}{$pedidoC}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$ClienD=mysqli\+\_\+fetch\+\_\+array( \$clien\+Con)) \$pedidoC = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from venta\char`\"{})}
+
+
+
+Definition at line 498 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ae5f3b315eef3bf568c012bd06bd896aa}\label{config_admin_8php_ae5f3b315eef3bf568c012bd06bd896aa}} 
+\index{configAdmin.php@{configAdmin.php}!\$pedidoU@{\$pedidoU}}
+\index{\$pedidoU@{\$pedidoU}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$pedidoU}{$pedidoU}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$pedidoD=mysqli\+\_\+fetch\+\_\+array( \$pedidoC)) \$pedidoU = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from venta\char`\"{})}
+
+
+
+Definition at line 529 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_af1485d2bad7ba471db848e96faaf9304}\label{config_admin_8php_af1485d2bad7ba471db848e96faaf9304}} 
+\index{configAdmin.php@{configAdmin.php}!\$productoc@{\$productoc}}
+\index{\$productoc@{\$productoc}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$productoc}{$productoc}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$provc=mysqli\+\_\+fetch\+\_\+array( \$proveedoresc)) \$productoc = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})}
+
+
+
+Definition at line 104 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ad639f030598c2f39d2e3218e11204041}\label{config_admin_8php_ad639f030598c2f39d2e3218e11204041}} 
+\index{configAdmin.php@{configAdmin.php}!\$productos@{\$productos}}
+\index{\$productos@{\$productos}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$productos}{$productos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$prodc=mysqli\+\_\+fetch\+\_\+array( \$productoc)) \$productos = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})}
+
+
+
+Definition at line 138 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a28c5093838075308414b14b442b20879}\label{config_admin_8php_a28c5093838075308414b14b442b20879}} 
+\index{configAdmin.php@{configAdmin.php}!\$proveedores@{\$proveedores}}
+\index{\$proveedores@{\$proveedores}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$proveedores}{$proveedores}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$PN=mysqli\+\_\+fetch\+\_\+array( \$prove\+N\+IT)) \$proveedores = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})}
+
+
+
+Definition at line 283 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ae9f47f85ab4e5168166f6d595c326f06}\label{config_admin_8php_ae9f47f85ab4e5168166f6d595c326f06}} 
+\index{configAdmin.php@{configAdmin.php}!\$proveedoresc@{\$proveedoresc}}
+\index{\$proveedoresc@{\$proveedoresc}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$proveedoresc}{$proveedoresc}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$catec=mysqli\+\_\+fetch\+\_\+array( \$categoriac)) \$proveedoresc = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})}
+
+
+
+Definition at line 77 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ad77453e4f8c3a3a95159f326f841456c}\label{config_admin_8php_ad77453e4f8c3a3a95159f326f841456c}} 
+\index{configAdmin.php@{configAdmin.php}!\$proveNIT@{\$proveNIT}}
+\index{\$proveNIT@{\$proveNIT}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$proveNIT}{$proveNIT}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$prod=mysqli\+\_\+fetch\+\_\+array( \$productos)) \$prove\+N\+IT = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from proveedor\char`\"{})}
+
+
+
+Definition at line 252 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a688bb9e9ce51fd0b16bd9ff1d2094dd3}\label{config_admin_8php_a688bb9e9ce51fd0b16bd9ff1d2094dd3}} 
+\index{configAdmin.php@{configAdmin.php}!\$ui@{\$ui}}
+\index{\$ui@{\$ui}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$ui}{$ui}}
+{\footnotesize\ttfamily \$ui =1}
+
+
+
+Definition at line 381 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a6b5ad2ac55f9df46e8f34e78fbd6f176}\label{config_admin_8php_a6b5ad2ac55f9df46e8f34e78fbd6f176}} 
+\index{configAdmin.php@{configAdmin.php}!\$up@{\$up}}
+\index{\$up@{\$up}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$up}{$up}}
+{\footnotesize\ttfamily \$up =1}
+
+
+
+Definition at line 284 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_ada9681a426e94c45c94d575b7f35feb9}\label{config_admin_8php_ada9681a426e94c45c94d575b7f35feb9}} 
+\index{configAdmin.php@{configAdmin.php}!\$upp@{\$upp}}
+\index{\$upp@{\$upp}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$upp}{$upp}}
+{\footnotesize\ttfamily \$upp =1}
+
+
+
+Definition at line 530 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a54f6087db0b070d5679122ae717a6c54}\label{config_admin_8php_a54f6087db0b070d5679122ae717a6c54}} 
+\index{configAdmin.php@{configAdmin.php}!\$upr@{\$upr}}
+\index{\$upr@{\$upr}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{\$upr}{$upr}}
+{\footnotesize\ttfamily \$upr =1}
+
+
+
+Definition at line 139 of file config\+Admin.\+php.
+
+\mbox{\Hypertarget{config_admin_8php_a90c79a5a5e0fbcc00e746ff28e058700}\label{config_admin_8php_a90c79a5a5e0fbcc00e746ff28e058700}} 
+\index{configAdmin.php@{configAdmin.php}!while@{while}}
+\index{while@{while}!configAdmin.php@{configAdmin.php}}
+\doxysubsubsection{\texorpdfstring{while}{while}}
+{\footnotesize\ttfamily while(\$peU=mysqli\+\_\+fetch\+\_\+array(\$pedidoU))}
+
+
+
+Definition at line 531 of file config\+Admin.\+php.
+

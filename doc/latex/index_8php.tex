@@ -1,0 +1,50 @@
+\hypertarget{index_8php}{}\doxysection{index.\+php File Reference}
+\label{index_8php}\index{index.php@{index.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{index_8php_a8b1625884d3b429a31ff07be097b7083}{\$consulta}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto where Stock $>$ 0 limit 8\char`\"{})
+\item 
+\mbox{\hyperlink{index_8php_a8796a7a1315f6ae27179fda56d37fe39}{\$totalproductos}} = mysqli\+\_\+num\+\_\+rows(\$consulta)
+\item 
+if(\$totalproductos $>$0) \mbox{\hyperlink{index_8php_aa994353ef8c1005f7f11a25112e557bb}{else}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{index_8php_a8b1625884d3b429a31ff07be097b7083}\label{index_8php_a8b1625884d3b429a31ff07be097b7083}} 
+\index{index.php@{index.php}!\$consulta@{\$consulta}}
+\index{\$consulta@{\$consulta}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$consulta}{$consulta}}
+{\footnotesize\ttfamily \$consulta = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto where Stock $>$ 0 limit 8\char`\"{})}
+
+
+
+Definition at line 24 of file index.\+php.
+
+\mbox{\Hypertarget{index_8php_a8796a7a1315f6ae27179fda56d37fe39}\label{index_8php_a8796a7a1315f6ae27179fda56d37fe39}} 
+\index{index.php@{index.php}!\$totalproductos@{\$totalproductos}}
+\index{\$totalproductos@{\$totalproductos}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$totalproductos}{$totalproductos}}
+{\footnotesize\ttfamily \$totalproductos = mysqli\+\_\+num\+\_\+rows(\$consulta)}
+
+
+
+Definition at line 25 of file index.\+php.
+
+\mbox{\Hypertarget{index_8php_aa994353ef8c1005f7f11a25112e557bb}\label{index_8php_aa994353ef8c1005f7f11a25112e557bb}} 
+\index{index.php@{index.php}!else@{else}}
+\index{else@{else}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if ( \$totalproductos $>$0) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{                      echo \textcolor{stringliteral}{'<h2>No hay productos registrados en la tienda</h2>'}}
+
+\end{DoxyCode}
+
+
+Definition at line 52 of file index.\+php.
+

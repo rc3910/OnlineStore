@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['_24admincon_0',['$adminCon',['../config_admin_8php.html#ab78c33692e5f5c3c07ada9a6d7fdf8fb',1,'configAdmin.php']]],
+  ['_24categoriac_1',['$categoriac',['../config_admin_8php.html#a1b8f77322def45212300102b94adee25',1,'configAdmin.php']]],
+  ['_24categorias_2',['$categorias',['../config_admin_8php.html#a02ff1ff64e55fcf91b5722e24902ab87',1,'$categorias():&#160;configAdmin.php'],['../product_8php.html#a4a1ae44f0e8e6dcbb0723eb952ef4431',1,'$categorias():&#160;product.php']]],
+  ['_24categoriav_3',['$categoriav',['../config_admin_8php.html#a68e6f4fa1d449340601ae63cee6b5f0e',1,'configAdmin.php']]],
+  ['_24cliencon_4',['$clienCon',['../config_admin_8php.html#ab46fdeee3e73567978f3934c5039c89d',1,'configAdmin.php']]],
+  ['_24codigoproducto_5',['$CodigoProducto',['../info_prod_8php.html#a10cb299ad3a1e95625380aeed78f1d3b',1,'infoProd.php']]],
+  ['_24consulta_6',['$consulta',['../index_8php.html#a8b1625884d3b429a31ff07be097b7083',1,'$consulta():&#160;index.php'],['../product_8php.html#a1c9b561bc0c35850f98fb30a1c6ea67a',1,'$consulta():&#160;product.php']]],
+  ['_24consultar_5fcategorias_7',['$consultar_categorias',['../product_8php.html#aea791665f69d1991a7463d8629c2fef3',1,'product.php']]],
+  ['_24nums_8',['$nums',['../product_8php.html#a65ff24d0804b2afeccfd077d4b554431',1,'product.php']]],
+  ['_24pedidoc_9',['$pedidoC',['../config_admin_8php.html#a82138fd06d120291dfe0713baf9ce972',1,'configAdmin.php']]],
+  ['_24pedidou_10',['$pedidoU',['../config_admin_8php.html#ae5f3b315eef3bf568c012bd06bd896aa',1,'configAdmin.php']]],
+  ['_24productoc_11',['$productoc',['../config_admin_8php.html#af1485d2bad7ba471db848e96faaf9304',1,'configAdmin.php']]],
+  ['_24productoinfo_12',['$productoinfo',['../info_prod_8php.html#ac9ad932e9097dee4dd0e6c3c6293962a',1,'infoProd.php']]],
+  ['_24productos_13',['$productos',['../config_admin_8php.html#ad639f030598c2f39d2e3218e11204041',1,'configAdmin.php']]],
+  ['_24proveedores_14',['$proveedores',['../config_admin_8php.html#a28c5093838075308414b14b442b20879',1,'configAdmin.php']]],
+  ['_24proveedoresc_15',['$proveedoresc',['../config_admin_8php.html#ae9f47f85ab4e5168166f6d595c326f06',1,'configAdmin.php']]],
+  ['_24provenit_16',['$proveNIT',['../config_admin_8php.html#ad77453e4f8c3a3a95159f326f841456c',1,'configAdmin.php']]],
+  ['_24totalproductos_17',['$totalproductos',['../index_8php.html#a8796a7a1315f6ae27179fda56d37fe39',1,'$totalproductos():&#160;index.php'],['../product_8php.html#a8796a7a1315f6ae27179fda56d37fe39',1,'$totalproductos():&#160;product.php']]],
+  ['_24ui_18',['$ui',['../config_admin_8php.html#a688bb9e9ce51fd0b16bd9ff1d2094dd3',1,'configAdmin.php']]],
+  ['_24up_19',['$up',['../config_admin_8php.html#a6b5ad2ac55f9df46e8f34e78fbd6f176',1,'configAdmin.php']]],
+  ['_24upp_20',['$upp',['../config_admin_8php.html#ada9681a426e94c45c94d575b7f35feb9',1,'configAdmin.php']]],
+  ['_24upr_21',['$upr',['../config_admin_8php.html#a54f6087db0b070d5679122ae717a6c54',1,'configAdmin.php']]]
+];

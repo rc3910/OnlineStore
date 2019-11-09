@@ -1,0 +1,98 @@
+\hypertarget{product_8php}{}\doxysection{product.\+php File Reference}
+\label{product_8php}\index{product.php@{product.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{product_8php_a4a1ae44f0e8e6dcbb0723eb952ef4431}{\$categorias}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}}(\$cate=mysqli\+\_\+fetch\+\_\+array(\$categorias)) \mbox{\hyperlink{product_8php_a1c9b561bc0c35850f98fb30a1c6ea67a}{\$consulta}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a8796a7a1315f6ae27179fda56d37fe39}{\$totalproductos}} = mysqli\+\_\+num\+\_\+rows(\$consulta)
+\item 
+if(\$totalproductos $>$0) \mbox{\hyperlink{product_8php_aa994353ef8c1005f7f11a25112e557bb}{else}}
+\item 
+\mbox{\hyperlink{product_8php_aea791665f69d1991a7463d8629c2fef3}{\$consultar\+\_\+categorias}} = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})
+\item 
+\mbox{\hyperlink{product_8php_a65ff24d0804b2afeccfd077d4b554431}{\$nums}} =1
+\item 
+\mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$categ=mysqli\+\_\+fetch\+\_\+array( \$consultar\+\_\+categorias))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{product_8php_a4a1ae44f0e8e6dcbb0723eb952ef4431}\label{product_8php_a4a1ae44f0e8e6dcbb0723eb952ef4431}} 
+\index{product.php@{product.php}!\$categorias@{\$categorias}}
+\index{\$categorias@{\$categorias}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{\$categorias}{$categorias}}
+{\footnotesize\ttfamily \$categorias = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})}
+
+
+
+Definition at line 29 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_a1c9b561bc0c35850f98fb30a1c6ea67a}\label{product_8php_a1c9b561bc0c35850f98fb30a1c6ea67a}} 
+\index{product.php@{product.php}!\$consulta@{\$consulta}}
+\index{\$consulta@{\$consulta}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{\$consulta}{$consulta}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}{while}} ( \$cate=mysqli\+\_\+fetch\+\_\+array( \$categorias)) \$consulta = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from producto\char`\"{})}
+
+
+
+Definition at line 47 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_aea791665f69d1991a7463d8629c2fef3}\label{product_8php_aea791665f69d1991a7463d8629c2fef3}} 
+\index{product.php@{product.php}!\$consultar\_categorias@{\$consultar\_categorias}}
+\index{\$consultar\_categorias@{\$consultar\_categorias}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{\$consultar\_categorias}{$consultar\_categorias}}
+{\footnotesize\ttfamily \$consultar\+\_\+categorias = ejecutar\+S\+Q\+L\+::consultar(\char`\"{}select $\ast$ from categoria\char`\"{})}
+
+
+
+Definition at line 85 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_a65ff24d0804b2afeccfd077d4b554431}\label{product_8php_a65ff24d0804b2afeccfd077d4b554431}} 
+\index{product.php@{product.php}!\$nums@{\$nums}}
+\index{\$nums@{\$nums}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{\$nums}{$nums}}
+{\footnotesize\ttfamily \$nums =1}
+
+
+
+Definition at line 86 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_a8796a7a1315f6ae27179fda56d37fe39}\label{product_8php_a8796a7a1315f6ae27179fda56d37fe39}} 
+\index{product.php@{product.php}!\$totalproductos@{\$totalproductos}}
+\index{\$totalproductos@{\$totalproductos}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{\$totalproductos}{$totalproductos}}
+{\footnotesize\ttfamily \$totalproductos = mysqli\+\_\+num\+\_\+rows(\$consulta)}
+
+
+
+Definition at line 48 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_aa994353ef8c1005f7f11a25112e557bb}\label{product_8php_aa994353ef8c1005f7f11a25112e557bb}} 
+\index{product.php@{product.php}!else@{else}}
+\index{else@{else}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if ( \$totalproductos $>$0) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{                                echo \textcolor{stringliteral}{'<h2>No hay productos en esta categoria</h2>'}}
+
+\end{DoxyCode}
+
+
+Definition at line 76 of file product.\+php.
+
+\mbox{\Hypertarget{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}\label{product_8php_a67ff46048975b7f3daa49d00a0fc31ff}} 
+\index{product.php@{product.php}!while@{while}}
+\index{while@{while}!product.php@{product.php}}
+\doxysubsubsection{\texorpdfstring{while}{while}}
+{\footnotesize\ttfamily while(\$categ=mysqli\+\_\+fetch\+\_\+array(\$consultar\+\_\+categorias))}
+
+
+
+Definition at line 87 of file product.\+php.
+
